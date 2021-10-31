@@ -1,0 +1,31 @@
+input {
+  display: block;
+  margin: 0 auto 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  height: 30px;
+  padding: 7px 17px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  font-size: 1rem;
+
+  &__body {
+    border: 0 solid #f14668;
+    border-left-width: 4px;
+    border-radius: 4px;
+    padding: 1.25em 1.5em;
+    background-color: #feecf0;
+    color: #cc0f35;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+}
